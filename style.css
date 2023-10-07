@@ -1,0 +1,20 @@
+.hero .mobile{
+    width: 100vw;
+    height: 80vh;
+}
+.video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    
+    z-index: -1; /* Coloca o vídeo atrás de todo o conteúdo */
+}
+
+video {
+    width:100.5vw;
+    height: 100vh;
+    object-fit: cover; /* Preenche a div de forma proporcional */
+}
+.favicon{
+    width: 80px;
+}
